@@ -1,0 +1,48 @@
+body{  
+    padding: 30px 30px 30px 30px;
+    width: 80%;
+}
+
+fieldset {
+    width: 60%;
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#secaoTitle1{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 84px;
+}
+
+#secaoContent1{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 60px;
+}
+
+input{
+    height: 20px;
+}
+
+#inferior{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+form,
+label {
+  display: block;
+  padding: 10px;
+}
+form {
+    width: 270px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+label {
+    color: #FFF;
+    
+}
+input {
+    
+    
+}
+input:focus{
+    box-shadow: 0;
+    outline: 0;
+}
+
+input{
+    border: 2.5px solid rgb(128, 6, 6);
+}
+
+.campos{
+    
+}
