@@ -9,30 +9,28 @@
 </head>
 <body>
 
-    <section id="container">
-        <form action="">
     
+    <form action="">
 
-            <label for="">*Last name: </label><input type="text" id="lastNome" class="campos" required><br>
-
-            <label for="firstName">*First name: </label><input type="text" id="lastNome" class="campos" required><br>
-
-            
+        <div class="labels">
+            <label for="">*Last name: </label>
+            <label for="firstName">*First name: </label>
             <label for="sexo">*Sex: </label>
-                <select name="" id="lastNome" class="campos" required>
-                    <option value=""></option>
-                    <option value="">Masculino</option>
-                    <option value="">Feminino</option>
-                    <option value="">Outro</option>
-                </select><br>
-                
+            <label for="email">*Email: </label>
+        </div>
 
-            <label for="email">*Email: </label><input type="email" id="lastNome" class="campos" required>
-
-        
-        </form>
-    </section>
-
-    <button>Register</button><button>Reset</button>
+        <div class="inputs">
+            <input type="text" id="lastNome" class="campos" required><br>
+            <input type="text" id="lastNome" class="campos" required><br>
+            <select name="" id="lastNome" class="campos" required>
+                <option value="">Select Gender</option>
+            </select><br>
+            <input type="email" id="email" class="campos" required>
+        </div>
+    </form>
+        <div class="botoes">
+            <button id="register">Register</button><button>Reset</button>
+        </div>
+    
 </body>
 </html>

@@ -21,6 +21,10 @@ fieldset {
     gap: 84px;
 }
 
+#Content{
+    width: 70%;
+}
+
 #secaoContent1{
     padding: 10px 10px 10px 10px;
     display: flex;
