@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.link{
+    position: absolute;
+    height: 50%;
+    
+    transform: translate(-50%, 50%);
+    left: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.637);
+    font-size: 30px;
+}
+
+
+
+a:hover{
+    color: black;
+}
+a:active{
+    color: aqua;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.links1{
+    position: relative;
+    display: flex;
+    height: 40%;
+    align-items: center;
+    
+
+}
+.links2{
+    display: flex;
+    height: 30%;
+    align-items: center;
+}
+
+.linha{
+    height: 18px;
+    width: 2px;
+    background-color: rgba(128, 128, 128, 0.637);
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 4px;
+}

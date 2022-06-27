@@ -1,0 +1,71 @@
+.botoes{
+    position: absolute;
+    height: 80vh;
+    width: 70vh;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    
+}
+
+.superior{
+    height: 50%;
+    width: 100%;
+}
+
+#b1{
+    position: absolute;
+    transform: translate(-15%, -30%);
+    left: 10%;
+    top: 30%;
+    background-color: red;
+    
+}
+
+#b2{
+    position: absolute;
+    transform: translate(-60%, -30%);
+    left: 80%;
+    top: 30%;
+    background-color: green;
+}
+
+#b3{
+    position: absolute;
+    transform: translate(-15%, -80%);
+    left: 10%;
+    top: 72%;
+    background-color: blue;
+}
+
+#b4{
+    position: absolute;
+    transform: translate(-60%, -80%);
+    left: 80%;
+    top: 72%;
+    background-color: yellow;
+}
+
+
+
+.inferior{
+    height: 50%;
+    width: 100%;
+
+}
+
+
+
+
+button{
+    
+    text-decoration: none;
+    border: 5px solid black;
+    width: 30vh;
+    height: 20vh;
+    border-radius: 25%;
+    font-size: 30px;
+    
+
+}
+

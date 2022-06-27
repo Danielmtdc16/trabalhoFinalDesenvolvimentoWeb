@@ -1,0 +1,125 @@
+h1{
+    color: rgb(4, 4, 80);
+}
+input:focus{
+    
+    background-color: moccasin;
+    
+}
+
+.conteudo{
+    position: relative;
+    text-align: center;
+    
+    width: 60vh;
+    height: 60vh;
+    margin: 0 auto;
+}
+.superior{
+    display: flex;
+    margin: 2% ;
+    
+}
+.caixa1{
+    text-align: left;
+    background-color: rgb(250, 166, 180);
+    width: 40%;
+    height: 20vh;
+    margin: 2%;
+    
+}
+
+.caixa1:hover{
+    background-color: aqua;
+}
+.caixa2:hover{
+    background-color: aqua;
+}
+.caixa3:hover{
+    background-color: aqua;
+}
+.caixa4:hover{
+    background-color: aqua;
+}
+
+.caixa2{
+    text-align: left;
+    background-color: rgb(218, 145, 218);
+    width: 40%;
+    margin: 2%;
+}
+
+.centro{
+    display: flex;
+    margin: 2% ;
+}
+
+.caixa3{
+    text-align: left;
+    background-color: rgb(143, 238, 143);
+    width: 40%;
+    height: 20vh;
+    margin: 2%;
+}
+.caixa4{
+    text-align: left;
+    background-color: rgb(164, 245, 241);
+    width: 40%;
+    margin: 2%;
+}
+
+.conteudo p{
+    margin-left: 1vh;
+}
+
+.inferior{
+    margin-left: 4%;
+    height: 25vh;
+    width: 80%;
+    background-color: rgb(53, 148, 148);
+}
+
+.inferior:hover{
+    background-color: aqua;
+}
+
+.formulario{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.label1{
+    margin-left: 15%;
+}
+.formulario input{
+    width: 20%;
+    
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.label2{
+    margin-left: 8%;
+}
+
+.formulario .input2{
+    width: 20%;
+    
+    margin-top: 5%;
+    margin-left: 0%;
+}
+.formulario button{
+    width: 25%;
+    margin-bottom: 0%;
+    margin-left: 73%;
+    margin-top: 8vh;
+    background-color: red;
+    border: none;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+}
+
+
+
+

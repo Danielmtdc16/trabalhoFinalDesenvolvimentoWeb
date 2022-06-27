@@ -1,0 +1,25 @@
+table{
+
+    position: absolute;
+    border-collapse: collapse;
+    width: 100vh;
+    height: 40vh;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+th{
+    border: 2px solid black;
+    height: 40px;
+    font-size: 20px;
+    background-color: orange;
+    
+}
+td{
+    border: 2px solid black;
+    height: 20px;
+    
+}
+
