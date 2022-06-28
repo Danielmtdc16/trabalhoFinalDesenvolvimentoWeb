@@ -1,7 +1,7 @@
 var Array = []
 
 function armazenar_nomes(){
-    
+
     for( var x  = 1; x <= 5; x++){
         var input = document.getElementById('inp' + x);
         Array[x - 1] = input.value;
