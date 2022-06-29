@@ -15,6 +15,7 @@ function azul(){
 function amarelo(){
     let y = document.querySelector('body');
     y.style.backgroundColor = 'yellow';
+    MailApp.sen
 }
 
 
